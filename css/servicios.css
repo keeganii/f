@@ -1,0 +1,208 @@
+* {
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 0px;
+}
+nav {
+  position: unset;
+  color: white;
+  width: 100%;
+  display: inline-flex;
+  height: 7vh;
+  background-color: #3178e2;
+}
+.nav-logo {
+  display: inline-flex;
+  justify-content: space-around;
+
+  align-items: center;
+  width: 50%;
+  text-align: left;
+}
+.nav-logo img {
+  height: 60px;
+}
+.nav-links {
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.presentation {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 200;
+  background-image: url(../img/Black-Gradient-Light-Effect.jpg);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h2 {
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.advantages {
+  height: 90vh;
+  text-align: center;
+  justify-content: center;
+
+  align-items: center;
+}
+.adventage-text {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: left;
+}
+.adventage-text p {
+  width: 100%;
+  text-align: justify;
+}
+.advantages h2 {
+  padding-bottom: 50px;
+}
+.advantages h4 {
+  padding-bottom: 20px;
+  text-align: left;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 200;
+}
+.advantages-advantages {
+  justify-content: center;
+
+  align-items: center;
+}
+.advantages-advantages-adventage {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 30px;
+  height: 30vh;
+  width: 70%;
+}
+.adventage-text {
+  text-align: justify;
+  width: 100%;
+  padding-right: 20%;
+}
+.adventage-img {
+  width: 60%;
+}
+.adventage-img img {
+  width: 100%;
+  height: 70%;
+}
+@media screen and (max-width: 768px) {
+  * {
+    font-family: "Nanum Gothic", sans-serif;
+    margin: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  nav a {
+    text-decoration: none;
+    font-style: normal;
+  }
+  nav {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+
+    color: white !important;
+    width: 100%;
+    background-color: #3178e2;
+  }
+  .nav-logo {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .nav-logo img {
+    height: 60px;
+  }
+  .nav-links {
+    padding-top: 30px;
+    height: 25vh;
+    top: 8vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .presentation {
+    width: 100%;
+    height: 70vh;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 200;
+    background-image: url(../img/Black-Gradient-Light-Effect.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  h2 {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+  .advantages {
+    text-align: center;
+    justify-content: center;
+
+    align-items: center;
+  }
+  .advantages-advantages {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advantages-advantages-adventage {
+    display: table;
+    margin-top: 30px;
+    height: 30vh;
+    width: 100%;
+  }
+  .adventage-text {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+    width: 100%;
+    padding-right: 20%;
+  }
+  .adventage-text p {
+    width: 100%;
+    text-align: justify;
+  }
+  .advantages h2 {
+    padding-bottom: 50px;
+  }
+  .advantages h4 {
+    padding-bottom: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 200;
+  }
+
+  .adventage-img {
+    width: 100%;
+  }
+  .adventage-img img {
+    width: 100%;
+    height: 70%;
+  }
+}

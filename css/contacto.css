@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+nav a {
+  text-decoration: none;
+  font-style: normal;
+}
+nav {
+  color: white !important;
+  width: 100%;
+  display: inline-flex;
+  height: 7vh;
+  background-color: #3178e2;
+}
+.nav-logo {
+  display: inline-flex;
+  justify-content: space-around;
+
+  align-items: center;
+  width: 50%;
+  text-align: left;
+}
+.nav-logo img {
+  height: 60px;
+}
+.nav-links {
+  width: 50%;
+  display: inline-flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.presentation {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  color: white;
+  text-align: center;
+  background-image: url(../img/contactojpg.jpg);
+  height: 30vh;
+  image-rendering: crisp-edges;
+}
+.contact {
+  height: 60vh;
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+/*
+    .inputs {
+
+    }*/
+.inputs input {
+  width: 200px;
+  height: 30px;
+}
+.btn-txt {
+  padding-top: 30px;
+}
+.btn-txt textarea {
+  width: 200px;
+  height: 60px;
+  padding-bottom: 30px;
+}
+.btn-txt button {
+  color: white;
+  border: 0px;
+  background-color: #3178e2;
+  margin-left: 30px;
+  width: 150px;
+  height: 40px;
+}
+@media screen and (max-width: 768px) {
+  * {
+    font-family: "Nanum Gothic", sans-serif;
+    margin: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  nav a {
+    text-decoration: none;
+    font-style: normal;
+  }
+  nav {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+
+    color: white !important;
+    width: 100%;
+    background-color: #3178e2;
+  }
+  .nav-logo {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .nav-logo img {
+    height: 60px;
+  }
+  .nav-links {
+    padding-top: 30px;
+    height: 25vh;
+    top: 8vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .presentation {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    text-align: center;
+    background-image: url(../img/contactojpg.jpg);
+    height: 30vh;
+    image-rendering: pixelated;
+  }
+  h1 {
+    font-size: 45px;
+    height: 90%;
+  }
+  .contact {
+    height: 60vh;
+    width: 100%;
+    padding-top: 10vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  /*
+      .inputs {
+  
+      }*/
+  .inputs input {
+    width: 200px;
+    height: 30px;
+  }
+  .btn-txt {
+    padding-top: 30px;
+  }
+  .btn-txt textarea {
+    width: 200px;
+    height: 60px;
+    padding-bottom: 30px;
+  }
+  .btn-txt button {
+    color: white;
+    border: 0px;
+    background-color: #3178e2;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+  }
+}
